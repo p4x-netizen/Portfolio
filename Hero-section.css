@@ -1,0 +1,93 @@
+.mysection{
+    margin-top: 80px;
+    justify-content: space-between;
+    font-family: sans-serif;
+    padding-left: 60px;
+    color: #333;
+    display: grid;
+    grid-template-columns: 2fr;
+}
+.right h4{
+    color: #333;
+    margin-left: 30px;
+}
+.right h4 span{
+    font-style: italic;
+    font-size: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.right h1{
+   color: #333;
+   outline: white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   filter: drop-shadow(10px 3px 3px #333);
+   
+}
+.right p{
+    padding: 10px;
+    line-height: 2;
+    font-size: 13px;
+}
+.buttons{
+    justify-content: space-between;
+    gap: 10px;
+}
+.hire{
+    height: 40px ;
+    width: 150px ;
+    background-color: #e0e5ec;
+    color: #333;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 4px 4px 8px #a3b1c6,
+    -4px -4px 8px #ffff;
+}
+.hire:hover{
+   box-shadow: inset 4px 4px 8px #a3b1c6,
+   inset -4px -4px 8px #ffff;
+}
+.download{
+    margin-left: 10px;
+    height: 40px ;
+    width: 150px ;
+    background-color: #e0e5ec;
+    color: #333;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 4px 4px 8px #a3b1c6,
+    -4px -4px 8px #ffff;
+}
+.download:hover{
+ box-shadow: inset 4px 4px 8px #a3b1c6,
+   inset -4px -4px 8px #ffff;
+}
+.download a{
+    text-decoration: none;
+    color: #333;
+}
+.social-media i{
+    font-size: 20px;
+    gap: 20px;
+    margin-left: 50px;
+    box-shadow: 4px 4px 8px #a3b1c6,
+    -4px -4px 8px #ffff;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.social-media i:hover{
+     box-shadow: inset 4px 4px 8px #a3b1c6,
+    inset -4px -4px 8px #ffff;
+}
+
+
+
+ .myself img{
+  width: 350px;
+  float: right;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  box-shadow: 8px 8px 16px #a3b1c6,
+    -8px -8px 16px #ffff;
+  border-radius: 50%;
+    
+}
